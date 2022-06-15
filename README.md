@@ -49,7 +49,7 @@ After the preparation work, the whole project should has the following structure
 ```
 ## Quick Start
 Please download the model file [here](https://drive.google.com/file/d/1K0gKQbx5fhOUI3_eXM59_l6ESd9L_NJe/view?usp=sharing).
-After downloading the checkpoints, you could run evaluation by the instructions in the evaluating section.
+After downloading the checkpoints, you could run the evaluation:
 
 ```python
 python test.py --checkpoint_dir ./save_checkpoints/retinal-11-16-8435_model.pt --data_path ./OCT2017/
