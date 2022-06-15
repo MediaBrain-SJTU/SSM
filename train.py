@@ -72,7 +72,7 @@ def main():
         need_hour, need_mins, need_secs = convert_secs2time(epoch_time.avg * (args.epochs - epoch))
         need_time = '[Need: {:02d}:{:02d}:{:02d}]'.format(need_hour, need_mins, need_secs)
         print_log(' {:3d}/{:3d} ----- [{:s}] {:s}'.format(epoch, args.epochs, time_string(), need_time), log)
-        #train(args, model, epoch, train_loader, optimizer, log)
+        train(args, model, epoch, train_loader, optimizer, log)
 
         scores, gt_list = val(args, model, test_loader)
         scores = np.asarray(scores)
