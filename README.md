@@ -67,7 +67,7 @@ To train a SSM model on the Retinal-OCT dataset, simply run:
 python train.py --data_path ./OCT2017 --epochs 50 --batch_size 32 --alpha 1.0 --belta 1.0 --gamma 1.0 --lr 0.0001
 ```
 
-This is a simple inplementation on Retinal-OCT. To experiment on other dataset, please follow the similar pipeline.
+This is a simple inplementation on Retinal-OCT. To experiment on other dataset, please follow the similar pipeline. Please contact the first author if you have any question.
 
 ## Citation
 
