@@ -68,12 +68,11 @@ python train.py --data_path ./OCT2017 --epochs 50 --batch_size 32 --alpha 1.0 --
 
 This is a simple inplementation on Retinal-OCT. To experiment on other dataset, please follow the similar pipeline.
 
-```
-
 ## Citation
 
 If you use this code, please cite the paper:
 
+```
 @ARTICLE{huang2022ssm,
   author={Huang, Chaoqin and Xu, Qinwei and Wang, Yanfeng and Wang, Yu and Zhang, Ya},
   journal={IEEE Transactions on Multimedia}, 
