@@ -18,6 +18,7 @@ This is an implementation of Self-Supervised Masking for Unsupervised Anomaly De
 - scipy >= 1.7.3
 - skimage >= 0.19.2
 - matplotlib >= 3.5.2
+- kornia >= 0.6.5
 - tqdm
 
 ### Data preparation
@@ -51,7 +52,7 @@ Please download the model file [here](https://drive.google.com/file/d/1K0gKQbx5f
 After downloading the checkpoints, you could run evaluation by the instructions in the evaluating section.
 
 ```python
-python test.py --checkpoint_dir ./save_checkpoints/retinal-11-16-8435_model.pt
+python test.py --checkpoint_dir ./save_checkpoints/retinal-11-16-8435_model.pt --data_path ./OCT2017/
 ```
 
 Method     |   SSM   |  Inplementation  | Model | 
