@@ -28,7 +28,7 @@ Please download Retinal-OCT dataset [here](https://www.kaggle.com/paultimothymoo
 After the preparation work, the whole project should has the following structure:
 
 ```
-./SSMAD
+./SSM
 ├── README.md
 ├── OCT2017                         # data files
 │   ├── train
