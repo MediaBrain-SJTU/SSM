@@ -55,10 +55,6 @@ After downloading the checkpoints, you could run the evaluation:
 python test.py --checkpoint_dir ./save_checkpoints/retinal-11-16-8435_model.pt --data_path ./OCT2017/
 ```
 
-Method     |   SSM   |  Inplementation  | Model | 
--------- |:-------:|:----------------:|:-------:
-AUC (%)  |  98.3   |       98.3       | [model](https://drive.google.com/file/d/1K0gKQbx5fhOUI3_eXM59_l6ESd9L_NJe/view?usp=sharing)
-
 ## Training
 
 To train a SSM model on the Retinal-OCT dataset, simply run:
@@ -66,6 +62,10 @@ To train a SSM model on the Retinal-OCT dataset, simply run:
 ```python
 python train.py --data_path ./OCT2017 --epochs 50 --batch_size 32 --alpha 1.0 --belta 1.0 --gamma 1.0 --lr 0.0001
 ```
+
+Method     |   SSM   |  Inplementation  | Model | 
+-------- |:-------:|:----------------:|:-------:
+AUC (%)  |  98.3   |       98.3       | [model](https://drive.google.com/file/d/1K0gKQbx5fhOUI3_eXM59_l6ESd9L_NJe/view?usp=sharing)
 
 This is a simple inplementation on Retinal-OCT. To experiment on other dataset, please follow the similar pipeline. Please contact the first author if you have any question.
 
