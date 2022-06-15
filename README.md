@@ -1,6 +1,6 @@
 # Self-Supervised Masking for Unsupervised Anomaly Detection and Localization
 
-This is an implementation of Self-Supervised Masking for Unsupervised Anomaly Detection and Localization (SSM) on PyTorch.
+This is an implementation of “Self-Supervised Masking for Unsupervised Anomaly Detection and Localization” (SSM) with PyTorch, accepted by IEEE Transactions on MultiMedia.
 
 **[Paper Link](https://ieeexplore.ieee.org/document/9779083)**  
 
